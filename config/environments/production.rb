@@ -8,7 +8,6 @@ Rails.application.configure do
     domain: 'heroku.com',
     enable_starttls_auto: true
   }
-end
   config.action_mailer.default_url_options = { host: 'nomster-will-gillam.herokuapp.com'}
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -103,3 +102,4 @@ end
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
+
